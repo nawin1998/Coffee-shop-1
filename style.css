@@ -1,0 +1,512 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.header{
+    position: sticky;
+    top: 0;
+    
+    background-color: blue;
+}
+.header .flex{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+}
+.header .flex .logo img{
+    height: 4.5rem;
+    margin-left: 55px;
+}
+
+.header .flex .navbar a{
+    margin-left: 3rem;
+    font-size: 20px;
+    color: white;
+}
+.navbar a:hover{
+    color: brown;
+}
+/*master section start*/
+.master .Home{
+    min-height: 52rem;
+    background-image: url(images/home-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.master .Home .content{
+    width: 50rem;
+    text-align: center;
+}
+.master .Home .content h1{
+    margin-bottom: 1rem;
+    font-size: 30px;
+    color: black;
+    font-family: cursive;
+}
+.master .Home .content p{
+    width: 45%;
+    margin-bottom: 1rem;
+    margin-left: 26%;
+    padding: 1rem 0;
+    font-size: 20px;
+    color: black;
+    line-height: 2;
+}
+.content .button{
+    border-radius: 10px;
+    color: black;
+    background-color: blueviolet;
+    font-size: large;
+    text-align: center;
+    padding: 14px;
+}
+.button:hover{
+    color: rgb(246, 240, 240);
+}
+
+/*about section start*/
+.About{
+    min-height: 52rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.About .eraser .shape{
+    text-align: center;
+}
+.eraser img{
+    height: 30rem;
+    margin-left: 15%;
+}
+.About .shape h1{
+    margin-bottom: 5%;
+    margin-left: 35%;
+    font-size: 30px;
+}
+.About .shape p{
+    width: 50%;
+    margin-left: 35%;
+    margin-top: 2rem;
+    font-size: 20px;
+
+}
+.About .shape button{
+    margin-top: 4rem;
+    margin-left: 52%;
+    border-radius: 14px;
+    padding: 15px;
+    background-color: rgb(240, 122, 183);
+    font-size: 20px;
+}
+button:hover{
+    color: rgb(251, 249, 249);
+}
+/*facility section start*/
+.facility{
+    background-color: transparent;
+    min-height: 37rem;
+}
+.facility .jack{
+    height: 40px;
+    width: 13rem;
+    margin-top: 30px; 
+    margin-left: 42%; 
+    font-size: 25px;
+    line-height: 2;   
+}
+.facility .jack img{
+    height: 100%;
+    width: 100%;
+}
+.facility .tomb li{
+    height: 200px;
+    width: 220px;
+    display: inline-flex;
+    margin-top: 8rem;
+    margin-left: 110px;
+}
+.facility .stick li{
+    color: black;
+    height: 50px;
+    width: 200px;
+    display: inline-flex;
+    top: 270px;
+    margin-right: auto;
+    margin-left: 125px;
+    font-size: 15px;
+}
+.facility .stick .silver{
+    margin-left: 170px;
+}
+.facility .stick .gold{
+    width: 230px;
+    margin-left: 90px;
+}
+.facility .stick .diamond{
+    margin-left: 110px;
+}
+.facility .round li{
+    height: 60px;
+    width: 200px;
+    display: inline-flex;
+    top: 250px;
+    margin-left: 125px;
+    font-size: large;
+}
+.facility .round li.tight{
+    width: 270px;
+    left: 5rem;
+}
+.facility .round li.loose{
+    width: 270px;
+    margin-left: 5rem;
+}
+.facility .round li.rope{
+    width: 270px;
+    margin-left: 3rem;
+}
+.facility .round li.knot{
+    width: 270px;
+    margin-left: 4rem;
+}
+
+/*menu section start*/
+.Menu{
+    background-color: transparent;
+    min-height: 52rem;
+}
+.Menu .domain img{
+    width: 13rem;
+    height: 40px;
+    margin-left: 42%;
+    margin-top: 6rem;
+}
+.Menu .domain h1{
+    height: 30px;
+    width: 200px;
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 42.8%;
+    font-size: 30px;
+}
+.minute li{
+    height: 200px;
+    width: 220px;
+    display: inline-flex;
+    margin-top: 2rem;
+    margin-left: 200px; 
+}
+.seconds li{
+    height: 50px;
+    width: 200px;
+    display: inline-flex;
+    margin-top: 1rem;
+    margin-right: auto;
+    margin-left: 220px;
+    font-size: 20px;
+}
+.seconds .m1{
+    margin-left: 14.5rem;
+}
+.seconds .m2{
+   margin-left: 15rem;
+}
+.seconds .m3{
+    margin-left: 14rem;
+}
+.watch li{
+    height: 200px;
+    width: 220px;
+    display: inline-flex;
+    top: 150px;
+    margin-left: 200px; 
+}
+.chain li{
+    height: 50px;
+    width: 200px;
+    display: inline-flex;
+    top: 160px;
+    margin-right: auto;
+    margin-left: 220px;
+    font-size: 20px;
+}
+.chain .m4{
+    margin-left: 15.5rem;
+}
+.chain .m5{
+   margin-left: 14rem;
+}
+.chain .m6{
+   margin-left: 13.5rem;
+}
+/*gallery section*/
+.Gallery{
+    background-color: transparent;
+    min-height: 52rem;
+}
+.Gallery .hero img{
+    width: 13rem;
+    height: 40px;
+    margin-left: 42%;
+    margin-top: 6rem;
+}
+.Gallery .hero h1{
+    height: 30px;
+    width: 160px;
+    margin-top: 25px;
+    margin-left: 44%;
+    font-size: 30px;
+}
+.photos li{
+    height: 250px;
+    width: 270px;
+    display: inline-flex;
+    margin-top: 2rem;
+    margin-left: 170px;
+}
+.photos img{
+    width: 100%;
+    height: 100%;
+}
+.pictures li{
+    height: 250px;
+    width: 270px;
+    display: inline-flex;
+    margin-top: 1rem;
+    margin-left: 170px
+}
+.pictures img{
+    width: 100%;
+    height: 100%;
+}
+/*team section start*/
+.Team{
+    background-color: transparent;
+    min-height: 52rem;
+}
+.Team .sunset img{
+    width: 13rem;
+    height: 40px;
+    margin-left: 42%;
+    margin-top: 6rem;
+}
+.Team .sunset h1{
+    height: 30px;
+    width: 140px;
+    margin-top: 25px;
+    margin-left: 44.7%;
+    font-size: 30px; 
+}
+.laps li{
+    height: 200px;
+    width: 220px;
+    display: inline-flex;
+    margin-top: 2rem;
+    margin-left: 205px;
+}
+.laps img{
+    height: 100%;
+    width: 100%;
+}
+.tops li{
+    height: 50px;
+    width: 200px;
+    display: inline-flex;
+    margin-top: 0.5rem;
+    margin-left: 15rem;
+    font-size: 20px;
+}
+.tops .s1{
+    margin-left: 16rem;
+}
+.tops .s2{
+    left: 75px;
+}
+.tops .s3{
+    left: 80px;
+}
+.zig li{
+    height: 200px;
+    width: 220px;
+    display: inline-flex;
+    margin-top: 0.5rem;
+    margin-left: 205px;
+}
+.zig img{
+    height: 100%;
+    width: 100%;
+}
+.zag li{
+    height: 50px;
+    width: 200px;
+    display: inline-flex;
+    margin-top: 0.5rem;
+    margin-right: auto;
+    margin-left: 220px;
+    font-size: 20px;
+}
+.zag .s4{
+    margin-left: 16rem;
+}
+.zag .s5{
+    margin-left: 15.5rem;
+}
+.zag .s6{
+    margin-left: 14rem;
+}
+/*contact section */
+.Contact{
+    background-color: transparent;
+    min-height: 52rem;
+}
+.Contact .cat img{
+    width: 13rem;
+    height: 40px;
+    margin-left: 42%;
+    margin-top: 6rem;
+}
+.Contact .cat h1{
+    height: 30px;
+    width: 160px;
+    margin-top: 10px;
+    margin-left: 44.2%;
+    font-size: 30px; 
+}
+.Contact .rows{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.Contact .rows .mike{
+    flex: 1 1 20rem;
+    margin-bottom: 15rem;
+}
+.Contact .rows .mike img{
+    width: 100%;
+}
+.Contact .rows form{
+    flex: 1 1 40rem;
+    padding: 2rem;
+    align-items: center;
+    border: 3px solid black;
+    margin-bottom: 15rem;
+}
+.Contact .rows form h1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: black;
+    margin-left: 36%;
+}
+.Contact .rows form .box{
+    width: 100%;
+    padding: 1.4rem;
+    font-size: 1.8rem;
+    color: black;
+    border: 2px solid black;
+    margin: 1rem 0;
+}
+.Contact .rows form .button{
+    padding: 10px 20px;
+    color: black;
+    margin-left: 43%;
+}
+.Contact .rows form .button:hover{
+    background-color: aquamarine;
+}
+/*icons section start*/
+.icons{
+    background-color: transparent;
+    height: 570px;
+}
+.magic li{
+    background-color: bisque;
+    height: 140px;
+    width: 140px;
+    display: inline-flex;
+    margin-left: 180px;
+    border-radius: 50%;
+}
+.magic li .fas1{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.magic li .fas2{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.magic li .fas3{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.magic li .fas4{
+    margin-top: 30px;
+    margin-left: 31px;
+}
+
+.panic li{
+    height: 50px;
+    width: 180px;
+    display: inline-flex;
+    top: 120px;
+    margin-right: auto;
+    margin-left: 110px;
+}
+.panic .y1{
+    margin-top: 25px;
+    margin-left: 12rem;
+}
+.panic .y2{
+    margin-top: 25px;
+    margin-left: 7.5rem;
+}
+.panic .y3{
+    margin-top: 25px;
+    margin-left: 9rem;
+}
+.panic .y4{
+    margin-top: 25px;
+    margin-left: 9rem;
+}
+.glass li{
+    height: 60px;
+    width: 200px;
+    display: inline-flex;
+    margin-top: 25px;
+    margin-left: 130px;
+}
+.glass .y5{
+    margin-left: 10rem;
+    font-size: larger;
+}
+.glass .y6{
+    left: 25px;
+    font-size: larger;
+}
+.glass .y7{
+    width: 17%;
+    margin-left: 6rem;
+    font-size: larger;
+}
+.glass .y8{
+    margin-left: 7.5rem;
+    width: 10%;
+    font-size: larger;
+}
+.line{
+    border: 5px solid black;
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.mail p{
+    font-size: large;
+    margin-left: 33rem;
+    margin-top: 20px;
+}
